@@ -10,7 +10,7 @@ from pathlib import Path
 import os
 
 #load llm
-llm = OllamaLLM(model='llama3.2:1b')
+llm = OllamaLLM(model='gemma3:1b')
 
 #load embedding
 embeddings = OllamaEmbeddings(model="nomic-embed-text:latest")
